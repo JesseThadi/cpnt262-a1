@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>cpnt201-a2</title>
+</head>
+<body>
+  <header class="header">
+    <nav>
+      <ul class="nav-bar">
+        <li><img src="assets/logo/logo.png" alt="camera" class="logo"></li> 
+        <li><a href="#" class="nav-bar">Home</a></li>
+        <li><a href="#" class="nav-bar">Services</a></li>
+        <li><a href="#" class="nav-bar">Images</a></li>
+        <li><a href="#" class="nav-bar">About</a></li>
+        <li><a href="#" class="nav-bar">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <h1>Klick</h1>
+    </div>
+  </header>
+
+  <main>
+    <section class="img-container">
+      <img src="assets/images/sm/img-1.jpg"
+           width="500" height="250"
+           sizes="100vw"
+           alt="tiny mushrooms"
+           srcset="assets/images/sm/img-1.jpg 500w,
+                   assets/images/md/img-1.jpg 1024w,
+                   assets/images/lg/img-1.jpg 1920w" loading="lazy">
+
+      <img src="assets/images/sm/img-2.jpg"
+           width="500" height="250"
+           sizes="100vw"
+           alt="city"
+           srcset="assets/images/sm/img-2.jpg 500w,
+                   assets/images/md/img-2.jpg 1024w,
+                   assets/images/lg/img-2.jpg 1920w" loading="lazy">
+      
+      <img src="assets/images/sm/img-3.jpg"
+           width="500" height="250"
+           sizes="100vw" 
+           alt="whale"
+           srcset="assets/images/sm/img-3.jpg 500w,
+                   assets/images/md/img-3.jpg 1024w,
+                   assets/images/lg/img-3.jpg 1920w" loading="lazy">
+      
+    </section>
+  </main>
+</body>
+</html>
